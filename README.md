@@ -154,5 +154,3 @@ Thank you to our contributors and supporters who help build CivIQ. Together, we 
 ```
 
 ---
-
-Feel free to adjust any section to better match your project details and specifics.
