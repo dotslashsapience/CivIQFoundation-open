@@ -63,7 +63,7 @@ This repository focuses on the **open-source core** of CivIQ. We recommend separ
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/civiq.git
+   git clone https://github.com/dotslashsapience/civiqfoundation.git
    cd civiq
    ```
 
