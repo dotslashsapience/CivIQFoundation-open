@@ -20,6 +20,8 @@ The codebase is organized into two main repositories:
    - Identity Verification
    - Censorship Resistance Infrastructure
 
+**All features of the platform will be open-sourced at deployment**
+
 Each repository is further divided into:
 - `launch-critical/` - Essential components needed for initial platform launch
 - `post-launch/` - Components planned for implementation after initial launch
