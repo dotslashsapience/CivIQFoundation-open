@@ -4,8 +4,8 @@
 
 The CivIQ platform is divided into two main repositories:
 
-1. **Open Source** (`open-source/`) - Contains all publicly available components
-2. **Closed Source** (`closed-source/`) - Contains proprietary components
+1. **Open Source** (`CivIQFoundation-open/`) - Contains all publicly available components
+2. **Closed Source** (`CiviqFoundation-closed/`) - Contains proprietary components
 
 Each repository is further organized into:
 

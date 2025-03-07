@@ -30,7 +30,7 @@ The repository is organized into:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/civiq-open-source.git
+git clone https://github.com/dotslashsapience/CivIQFoundation-open.git
 cd civiq-open-source
 
 # Install dependencies
