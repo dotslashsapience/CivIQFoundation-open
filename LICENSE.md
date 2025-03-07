@@ -70,7 +70,7 @@ To ensure compliance with this license, CivIQ maintains the following enforcemen
 2. **Trademark Protection**: The name "CivIQ" and its associated branding cannot be used by any modified version unless it remains mission-aligned and receives explicit permission from the CivIQ Foundation.
 3. **Public Transparency**: Any project using CivIQ's software must provide a public link to its source code and mission statement to verify compliance.
 4. **CivIQ Ethics Committee**: A dedicated committee will oversee disputes and issue rulings on mission alignment violations.
-5. **Violation Reporting**: Developers and users may report suspected violations to c.tristan94@outlook.com, where the CivIQ Foundation will conduct an independent review.
+5. **Violation Reporting**: Developers and users may report suspected violations to security@civiq.us, where the CivIQ Foundation will conduct an independent review.
 6. **Compliance Review Requirement**: If a violation is found, the violating party must either bring their project into compliance or publicly acknowledge non-compliance and cease use.
 7. **Public Compliance Reporting**: Any platform using CivIQ must publish an annual transparency report detailing how it prevents misinformation, supports civic engagement, and aligns with CivIQ’s mission.
 8. **Arbitration & Dispute Resolution**: Violators may appeal enforcement actions through the CivIQ Ethics Committee, ensuring due process in compliance decisions.
