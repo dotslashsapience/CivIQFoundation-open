@@ -1,0 +1,52 @@
+{
+  "name": "civiq-platform",
+  "version": "0.1.0",
+  "description": "CivIQ - A civic discourse platform designed to foster meaningful, evidence-based discussions",
+  "private": true,
+  "workspaces": [
+    "src/frontend",
+    "src/backend",
+    "src/shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd src/frontend && npm run dev",
+    "dev:backend": "cd src/backend && npm run dev",
+    "build": "npm run build:shared && npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd src/frontend && npm run build",
+    "build:backend": "cd src/backend && npm run build",
+    "build:shared": "cd src/shared && npm run build",
+    "test": "npm run test:unit && npm run test:integration && npm run test:e2e",
+    "test:unit": "jest --config=./jest.config.unit.js",
+    "test:integration": "jest --config=./jest.config.integration.js",
+    "test:e2e": "playwright test",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/civiq-foundation/civiq-platform.git"
+  },
+  "keywords": [
+    "civic-engagement",
+    "discourse",
+    "moderation",
+    "democracy"
+  ],
+  "author": "CivIQ Foundation",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/civiq-foundation/civiq-platform/issues"
+  },
+  "homepage": "https://github.com/civiq-foundation/civiq-platform#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "concurrently": "^8.0.1",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.3"
+  }
+}
